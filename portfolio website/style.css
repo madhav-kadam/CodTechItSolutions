@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color:antiquewhite;
+}
+
+#portfolio{
+    background-color: gainsboro;
+    width: 100%;
+    height: 100%;
+
+}
+.text{
+    color: black;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 100%; /* Adjust the width as needed */
+}
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.bio {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.social-link {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.box{
+    width: 100%;
+    border: 40px;
+    background-color: rgb(96, 92, 92);
+}
+
+.data
+{
+    width: 80%;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.links a
+{
+    font-size: 30px;
+    color: #3d535f;
+    margin: 25px 10px;
+}
+
+footer
+{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.multiText{
+    font-size: 50px;
+}
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 20px;
+}
+
+button {
+    position: relative;
+    background:gainsboro;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    padding: 1rem 3rem;
+    transition: 0.2s;
+    }
+
+    button:hover {
+    letter-spacing: 0.2rem;
+    padding: 1.1rem 3.1rem;
+    background: var(--clr);
+    color: var(--clr);
+    animation: box 3s infinite;
+    }
